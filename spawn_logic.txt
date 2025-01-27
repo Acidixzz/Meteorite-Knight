@@ -1,0 +1,21 @@
+Idea 1:
+create masterlist of lists of each enemy type and then inside the enemy type list are lists of the enemy object
+and its correlated meteor object
+
+loop through (depending on the wave) the master list to loop through the lists of enemy types, and then use a nested loop
+to add the corresponding amount of enemies and meteors depending on the wave.
+-------------------------------------------------------------------------------------------------------------------------|
+ex.
+
+for wave 1:
+create a sublist of 3 green alien objects and spawn them buffered
+once each alien is dead, delete from the list.
+for wave 2:
+create 5 green aliens
+wave 3:
+7 aliens
+wave 4:
+9 aliens
+wave 5:
+9 green aliens in the sublist and add 1 blue alien (consider meteor size as well) to a sublist for that enemy type.
+etc.
